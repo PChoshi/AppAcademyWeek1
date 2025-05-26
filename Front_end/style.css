@@ -1,0 +1,12 @@
+
+body{ background-color:#be9b7b ;
+    text-align: center;
+    color:#FFFFFF;}
+ 
+.footer-link{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 10px 0;
+}

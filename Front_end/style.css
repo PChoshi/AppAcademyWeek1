@@ -14,7 +14,7 @@ body{ background-color:#be9b7b;
 }
 
 .navbar {
-    background-color: #333;
+    background-color: #6F4E37;
     padding: 10px 0;
 }
 
@@ -39,6 +39,18 @@ body{ background-color:#be9b7b;
 }
 
 .nav-links a:hover {
-    background-color: #555;
+    background-color: #be9b7b;
     border-radius: 4px;
 }
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+

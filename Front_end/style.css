@@ -1,20 +1,20 @@
 
-body{ background-color:#be9b7b;
+body{ background-color:white;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color:#FFFFFF;}
+    color:#6F4E37;}
  
 .footer-link{
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #FFFFFF;
+    background-color: white;
     padding: 10px 0;
 }
 
 .navbar {
-    background-color: #6F4E37;
+    background-color: white;
     padding: 10px 0;
 }
 
@@ -23,7 +23,9 @@ body{ background-color:#be9b7b;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    font: 1em sans-serif;
+    padding: 30px;
+    justify-content: right;
 }
 
 .nav-links li {
@@ -32,14 +34,14 @@ body{ background-color:#be9b7b;
 
 .nav-links a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: bold;
     padding: 8px 12px;
     transition: background-color 0.3s ease0;
 }
 
 .nav-links a:hover {
-    background-color: #be9b7b;
+    background-color: #ffb9c4;
     border-radius: 4px;
 }
 .column {
@@ -53,5 +55,19 @@ body{ background-color:#be9b7b;
   display: table;
   clear: both;
 }
+.paragraph{ background-color:#FFFFFF;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    color:#6F4E37;
+    ;
+}
+.heading-1 {
+    background-color:#FFFFFF;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:#6F4E37
 
+}
 
